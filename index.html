@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Coding Practice</title>
+
+    <style>
+        body {
+            background-color: midnightblue;
+            color: skyblue;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        button {
+            background-color: skyblue;
+            color: midnightblue;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to My Coding World!</h1>
+    <p>I'm learning HTML, CSS and JavaScript.</p>
+
+    <button onclick="changeColor()">Change Background</button>
+
+    <script>
+        function changeColor() {
+            document.body.style.backgroundColor =
+                document.body.style.backgroundColor === "midnightblue"
+                ? "black"
+                : "midnightblue";
+        }
+    </script>
+
+</body>
+</html>
